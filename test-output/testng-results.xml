@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-05T01:34:58 EDT" name="PlaywrightPageObjectModel" finished-at="2025-09-05T01:35:39 EDT" duration-ms="40996">
+    <groups>
+    </groups>
+    <test started-at="2025-09-05T01:34:58 EDT" name="HomeTest" finished-at="2025-09-05T01:35:12 EDT" duration-ms="14417">
+      <class name="TestPackge.TestHome">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:TestPackge.TestHome@49dbaaf3]" started-at="2025-09-05T01:34:58 EDT" name="testSetup" finished-at="2025-09-05T01:35:12 EDT" duration-ms="14027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="testHomePageTitle()[pri:1, instance:TestPackge.TestHome@49dbaaf3]" started-at="2025-09-05T01:35:12 EDT" name="testHomePageTitle" finished-at="2025-09-05T01:35:12 EDT" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageTitle -->
+        <test-method signature="checkUrl()[pri:2, instance:TestPackge.TestHome@49dbaaf3]" started-at="2025-09-05T01:35:12 EDT" name="checkUrl" finished-at="2025-09-05T01:35:12 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUrl -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestPackge.TestHome@49dbaaf3]" started-at="2025-09-05T01:35:12 EDT" name="tearDown" finished-at="2025-09-05T01:35:12 EDT" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestPackge.TestHome -->
+    </test> <!-- HomeTest -->
+    <test started-at="2025-09-05T01:35:12 EDT" name="CustLoginTest" finished-at="2025-09-05T01:35:20 EDT" duration-ms="8140">
+      <class name="TestPackge.CustomerLoginTest">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:TestPackge.CustomerLoginTest@59429fac]" started-at="2025-09-05T01:35:12 EDT" name="testSetup" finished-at="2025-09-05T01:35:18 EDT" duration-ms="5621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="checkTitle()[pri:1, instance:TestPackge.CustomerLoginTest@59429fac]" started-at="2025-09-05T01:35:18 EDT" name="checkTitle" finished-at="2025-09-05T01:35:19 EDT" duration-ms="1439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method signature="checkCustomer()[pri:2, instance:TestPackge.CustomerLoginTest@59429fac]" started-at="2025-09-05T01:35:19 EDT" name="checkCustomer" finished-at="2025-09-05T01:35:20 EDT" duration-ms="1022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestPackge.CustomerLoginTest@59429fac]" started-at="2025-09-05T01:35:20 EDT" name="tearDown" finished-at="2025-09-05T01:35:20 EDT" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestPackge.CustomerLoginTest -->
+    </test> <!-- CustLoginTest -->
+    <test started-at="2025-09-05T01:35:20 EDT" name="AcctPageTest" finished-at="2025-09-05T01:35:30 EDT" duration-ms="9638">
+      <class name="TestPackge.AcctPageTesting">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:TestPackge.AcctPageTesting@769d513]" started-at="2025-09-05T01:35:20 EDT" name="testSetup" finished-at="2025-09-05T01:35:25 EDT" duration-ms="5097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="accountDetails()[pri:1, instance:TestPackge.AcctPageTesting@769d513]" started-at="2025-09-05T01:35:25 EDT" name="accountDetails" finished-at="2025-09-05T01:35:28 EDT" duration-ms="2485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountDetails -->
+        <test-method signature="depositTest()[pri:2, instance:TestPackge.AcctPageTesting@769d513]" started-at="2025-09-05T01:35:28 EDT" name="depositTest" finished-at="2025-09-05T01:35:30 EDT" duration-ms="1993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- depositTest -->
+        <test-method signature="welcomeMsg()[pri:2, instance:TestPackge.AcctPageTesting@769d513]" started-at="2025-09-05T01:35:30 EDT" name="welcomeMsg" finished-at="2025-09-05T01:35:30 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomeMsg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestPackge.AcctPageTesting@769d513]" started-at="2025-09-05T01:35:30 EDT" name="tearDown" finished-at="2025-09-05T01:35:30 EDT" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestPackge.AcctPageTesting -->
+    </test> <!-- AcctPageTest -->
+    <test started-at="2025-09-05T01:35:30 EDT" name="RegForm" finished-at="2025-09-05T01:35:39 EDT" duration-ms="8714">
+      <class name="TestPackge.RegFormTest">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:TestPackge.RegFormTest@70e02081]" started-at="2025-09-05T01:35:30 EDT" name="testSetup" finished-at="2025-09-05T01:35:36 EDT" duration-ms="6264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="regFormDetails()[pri:0, instance:TestPackge.RegFormTest@70e02081]" started-at="2025-09-05T01:35:36 EDT" name="regFormDetails" finished-at="2025-09-05T01:35:38 EDT" duration-ms="2406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regFormDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestPackge.RegFormTest@70e02081]" started-at="2025-09-05T01:35:38 EDT" name="tearDown" finished-at="2025-09-05T01:35:39 EDT" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestPackge.RegFormTest -->
+    </test> <!-- RegForm -->
+  </suite> <!-- PlaywrightPageObjectModel -->
+</testng-results>
