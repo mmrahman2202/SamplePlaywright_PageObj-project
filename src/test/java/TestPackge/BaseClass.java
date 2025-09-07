@@ -30,7 +30,7 @@ public class BaseClass {
 		sp.getConfig();
 		page=sp.openBrowser();
 		cl=new CustLogin(page);
-	    hp=new HomePage(page);	
+	    hp=new HomePage(page);		
 	    rg= new RegstFormPage(page);
 	    ac=new AccountPage(page);
 	    prop=sp.prop;

@@ -156,21 +156,6 @@
           <div class="suite-PlaywrightPageObjectModel-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">TestPackge.RegFormTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="regFormDetails">
-                  </a> <!-- regFormDetails -->
-                  <span class="method-name">regFormDetails</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-PlaywrightPageObjectModel-class-passed -->
-          <div class="suite-PlaywrightPageObjectModel-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">TestPackge.TestHome</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -241,6 +226,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-PlaywrightPageObjectModel-class-passed -->
+          <div class="suite-PlaywrightPageObjectModel-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestPackge.RegFormTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="regFormDetails">
+                  </a> <!-- regFormDetails -->
+                  <span class="method-name">regFormDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PlaywrightPageObjectModel-class-passed -->
         </div> <!-- panel PlaywrightPageObjectModel -->
         <div panel-name="test-xml-PlaywrightPageObjectModel" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -250,23 +250,23 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;PlaywrightPageObjectModel&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;HomeTest&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;PlaywrightPageObjectModel&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;HomeTest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;TestPackge.TestHome&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- HomeTest --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;CustLoginTest&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;CustLoginTest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;TestPackge.CustomerLoginTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- CustLoginTest --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;AcctPageTest&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;AcctPageTest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;TestPackge.AcctPageTesting&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- AcctPageTest --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;RegForm&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;RegForm&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;TestPackge.RegFormTest&quot;/&gt;
     &lt;/classes&gt;
@@ -319,42 +319,42 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'accountDetails')
-data.setCell(0, 2, 'TestPackge.AcctPageTesting')
-data.setCell(0, 3, 2485);
+data.setCell(0, 1, 'regFormDetails')
+data.setCell(0, 2, 'TestPackge.RegFormTest')
+data.setCell(0, 3, 11416);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'regFormDetails')
-data.setCell(1, 2, 'TestPackge.RegFormTest')
-data.setCell(1, 3, 2406);
+data.setCell(1, 1, 'accountDetails')
+data.setCell(1, 2, 'TestPackge.AcctPageTesting')
+data.setCell(1, 3, 5282);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'depositTest')
-data.setCell(2, 2, 'TestPackge.AcctPageTesting')
-data.setCell(2, 3, 1993);
+data.setCell(2, 1, 'checkTitle')
+data.setCell(2, 2, 'TestPackge.CustomerLoginTest')
+data.setCell(2, 3, 4636);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'checkTitle')
-data.setCell(3, 2, 'TestPackge.CustomerLoginTest')
-data.setCell(3, 3, 1439);
+data.setCell(3, 1, 'testHomePageTitle')
+data.setCell(3, 2, 'TestPackge.TestHome')
+data.setCell(3, 3, 3300);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'checkCustomer')
-data.setCell(4, 2, 'TestPackge.CustomerLoginTest')
-data.setCell(4, 3, 1022);
+data.setCell(4, 1, 'depositTest')
+data.setCell(4, 2, 'TestPackge.AcctPageTesting')
+data.setCell(4, 3, 1874);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testHomePageTitle')
-data.setCell(5, 2, 'TestPackge.TestHome')
-data.setCell(5, 3, 83);
+data.setCell(5, 1, 'checkCustomer')
+data.setCell(5, 2, 'TestPackge.CustomerLoginTest')
+data.setCell(5, 3, 1213);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'welcomeMsg')
 data.setCell(6, 2, 'TestPackge.AcctPageTesting')
-data.setCell(6, 3, 7);
+data.setCell(6, 3, 27);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'checkUrl')
 data.setCell(7, 2, 'TestPackge.TestHome')
-data.setCell(7, 3, 3);
+data.setCell(7, 3, 20);
 window.suiteTableData['PlaywrightPageObjectModel']= { tableData: data, tableDiv: 'times-div-PlaywrightPageObjectModel'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
               <div id="times-div-PlaywrightPageObjectModel">
               </div> <!-- times-div-PlaywrightPageObjectModel -->
             </div> <!-- times-div -->
@@ -385,74 +385,98 @@ return data;
                 <span class="method-name">testSetup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">testHomePageTitle</span>
-                <span class="method-start">14069 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">checkUrl</span>
-                <span class="method-start">14272 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">14289 ms</span>
-              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestPackge.CustomerLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">testSetup</span>
-                <span class="method-start">14387 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">checkTitle</span>
-                <span class="method-start">20010 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">checkCustomer</span>
-                <span class="method-start">21452 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">22476 ms</span>
-              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestPackge.AcctPageTesting</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">testSetup</span>
-                <span class="method-start">22552 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">accountDetails</span>
-                <span class="method-start">27650 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">depositTest</span>
-                <span class="method-start">30138 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">welcomeMsg</span>
-                <span class="method-start">32134 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">32144 ms</span>
-              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestPackge.RegFormTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">testSetup</span>
-                <span class="method-start">32193 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">regFormDetails</span>
-                <span class="method-start">38458 ms</span>
+                <span class="method-start">31051 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPackge.TestHome</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testHomePageTitle</span>
+                <span class="method-start">31057 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPackge.AcctPageTesting</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">accountDetails</span>
+                <span class="method-start">32643 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPackge.TestHome</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkUrl</span>
+                <span class="method-start">35010 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">40868 ms</span>
+                <span class="method-start">35069 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPackge.AcctPageTesting</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">depositTest</span>
+                <span class="method-start">37934 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPackge.CustomerLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkTitle</span>
+                <span class="method-start">38231 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPackge.AcctPageTesting</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">welcomeMsg</span>
+                <span class="method-start">39816 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39853 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPackge.RegFormTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">42486 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestPackge.CustomerLoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkCustomer</span>
+                <span class="method-start">43041 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44418 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

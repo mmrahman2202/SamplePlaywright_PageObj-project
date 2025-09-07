@@ -5,20 +5,22 @@ import java.util.Properties;
 import com.microsoft.playwright.Page;
 
 public class HomePage {
+	
 	private String selectCustomer="//select[@id='userSelect']";
 	private String selectForm="//a[text()='Sample Form']";
 	private String logincustomer="//button[text()='Customer Login']";
 	private String loginMgr="//a[text()='Bank Manager Login']";
 	private String loginLife="//a[text()='Lifetime Membership']";
-	public Page page;
+	private Page page;
     private Properties prop;
     
-	public HomePage(Page page) {
+	public HomePage(Page page ) {
 		this.page = page;
+		
 
 	}
     public String getTitle() {
-    	
+      
       System.out.println(page.title());
       String title=page.title();
       return title;

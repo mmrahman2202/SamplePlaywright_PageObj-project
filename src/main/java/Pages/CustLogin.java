@@ -5,7 +5,7 @@ import com.microsoft.playwright.Page;
 
 public class CustLogin {
 	private String selectCustomer="//select[@id='userSelect']";
-	Page page;
+	private Page page;
 	
 	public CustLogin(Page page) {
 		this.page = page;

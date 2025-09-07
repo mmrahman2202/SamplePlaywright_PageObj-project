@@ -10,6 +10,7 @@ import com.microsoft.playwright.BrowserContext;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
+import com.microsoft.playwright.Response;
 
 public class SetUpPlaywright {
 	
@@ -18,7 +19,7 @@ public class SetUpPlaywright {
 	 Playwright playwright;
 	 Browser browser;	
 	 BrowserContext context;
-	 Page page;
+	private Page page;
 	private String selectedBrowser;
 	public Properties prop; 
 	// For ThreadLocal Implementation
@@ -81,7 +82,7 @@ public class SetUpPlaywright {
 	     thlocalBrowserCont.set(getBrowser().newContext());
 	     //page = context.newPage();
 	     thlocalPage.set(getContext().newPage());
-	     getPage().navigate(prop.getProperty("url").trim());
+	      getPage().navigate(prop.getProperty("url").trim());
 	     return getPage();
 }	
 	

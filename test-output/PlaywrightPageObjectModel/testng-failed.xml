@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [PlaywrightPageObjectModel]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="HomeTest(failed)">
+    <classes>
+      <class name="TestPackge.TestHome">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSetup"/>
+          <include name="testHomePageTitle"/>
+          <include name="checkUrl"/>
+        </methods>
+      </class> <!-- TestPackge.TestHome -->
+    </classes>
+  </test> <!-- HomeTest(failed) -->
   <test thread-count="5" parallel="tests" name="CustLoginTest(failed)">
     <classes>
       <class name="TestPackge.CustomerLoginTest">
@@ -37,16 +49,4 @@
       </class> <!-- TestPackge.AcctPageTesting -->
     </classes>
   </test> <!-- AcctPageTest(failed) -->
-  <test thread-count="5" parallel="tests" name="HomeTest(failed)">
-    <classes>
-      <class name="TestPackge.TestHome">
-        <methods>
-          <include name="tearDown"/>
-          <include name="testSetup"/>
-          <include name="testHomePageTitle"/>
-          <include name="checkUrl"/>
-        </methods>
-      </class> <!-- TestPackge.TestHome -->
-    </classes>
-  </test> <!-- HomeTest(failed) -->
 </suite> <!-- Failed suite [PlaywrightPageObjectModel] -->

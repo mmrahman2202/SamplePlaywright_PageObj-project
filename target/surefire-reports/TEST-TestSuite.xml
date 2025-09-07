@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="14.924" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="39.987" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\mofiz\AppData\Local\Temp\surefire17558073176988058291\surefirebooter-20250903123813089_3.jar C:\Users\mofiz\AppData\Local\Temp\surefire17558073176988058291 2025-09-03T12-38-12_935-jvmRun1 surefire-20250903123813089_1tmp surefire_0-20250903123813089_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\mofiz\AppData\Local\Temp\surefire3292382268823578922\surefirebooter-20250907000034499_3.jar C:\Users\mofiz\AppData\Local\Temp\surefire3292382268823578922 2025-09-07T00-00-33_474-jvmRun1 surefire-20250907000034499_1tmp surefire_0-20250907000034499_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\mofiz\eclipse-workspace\SamplePageObject\target\test-classes;C:\Users\mofiz\eclipse-workspace\SamplePageObject\target\classes;C:\Users\mofiz\.m2\repository\com\microsoft\playwright\playwright\1.54.0\playwright-1.54.0.jar;C:\Users\mofiz\.m2\repository\com\google\code\gson\gson\2.12.1\gson-2.12.1.jar;C:\Users\mofiz\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\mofiz\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\mofiz\.m2\repository\com\microsoft\playwright\driver\1.54.0\driver-1.54.0.jar;C:\Users\mofiz\.m2\repository\com\microsoft\playwright\driver-bundle\1.54.0\driver-bundle-1.54.0.jar;C:\Users\mofiz\.m2\repository\org\testng\testng\7.10.0\testng-7.10.0.jar;C:\Users\mofiz\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\mofiz\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\mofiz\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\mofiz\.m2\repository\io\qameta\allure\allure-testng\2.29.1\allure-testng-2.29.1.jar;C:\Users\mofiz\.m2\repository\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;C:\Users\mofiz\.m2\repository\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;C:\Users\mofiz\.m2\repository\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\mofiz\AppData\Local\Temp\surefire17558073176988058291\surefirebooter-20250903123813089_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\mofiz\AppData\Local\Temp\surefire3292382268823578922\surefirebooter-20250907000034499_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
@@ -57,8 +57,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testHomePageTitle" classname="TestPackge.TestHome" time="0.206">
+  <testcase name="testHomePageTitle" classname="TestPackge.TestHome" time="1.263">
     <system-out><![CDATA[Launching in Firefox Browser
+Launching in Firefox Browser
+Launching in Firefox Browser
+Launching in Firefox Browser
 Protractor practice website - Banking App
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
@@ -66,9 +69,36 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="checkUrl" classname="TestPackge.TestHome" time="0.009">
+  <testcase name="checkUrl" classname="TestPackge.TestHome" time="0.003">
     <system-out><![CDATA[https://www.way2automation.com/angularjs-protractor/banking/#/login
 ]]></system-out>
   </testcase>
-  <testcase name="clickRegForm" classname="TestPackge.TestHome" time="1.475"/>
+  <testcase name="regFormDetails" classname="TestPackge.RegFormTest" time="1.492">
+    <system-out><![CDATA[Registration Form
+https://www.way2automation.com/angularjs-protractor/banking/registrationform.html
+All fields must be filled!
+]]></system-out>
+  </testcase>
+  <testcase name="checkTitle" classname="TestPackge.CustomerLoginTest" time="1.841">
+    <system-out><![CDATA[Protractor practice website - Banking App
+https://www.way2automation.com/angularjs-protractor/banking/#/login
+]]></system-out>
+  </testcase>
+  <testcase name="checkCustomer" classname="TestPackge.CustomerLoginTest" time="1.068">
+    <system-out><![CDATA[my config name is: mofiz
+]]></system-out>
+  </testcase>
+  <testcase name="accountDetails" classname="TestPackge.AcctPageTesting" time="2.256">
+    <system-out><![CDATA[Protractor practice website - Banking App
+https://www.way2automation.com/angularjs-protractor/banking/#/customer
+]]></system-out>
+  </testcase>
+  <testcase name="depositTest" classname="TestPackge.AcctPageTesting" time="1.89">
+    <system-out><![CDATA[Deposit Successful
+]]></system-out>
+  </testcase>
+  <testcase name="welcomeMsg" classname="TestPackge.AcctPageTesting" time="0.009">
+    <system-out><![CDATA[ Welcome Harry Potter !!
+]]></system-out>
+  </testcase>
 </testsuite>

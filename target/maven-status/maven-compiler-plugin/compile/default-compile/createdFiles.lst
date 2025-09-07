@@ -1,0 +1,5 @@
+InitiatePlaywright\SetUpPlaywright.class
+Pages\AccountPage.class
+Pages\CustLogin.class
+Pages\HomePage.class
+Pages\RegstFormPage.class
