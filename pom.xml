@@ -40,8 +40,7 @@
       <artifactId>maven-surefire-plugin</artifactId>
       <version>3.5.2</version>
       <configuration>
-          <source>1.8</source>
-         <target>1.8</target>
+          
 
         <argLine>
             -javaagent:"${settings.localRepository}\org\aspectj\aspectjweaver\${aspectj.version}\aspectjweaver-${aspectj.version}.jar"
@@ -59,6 +58,16 @@
         </dependency>
         </dependencies>
     </plugin>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.8.1</version> <!-- or newer -->
+      <configuration>
+        <source>1.8</source>
+        <target>1.8</target>
+      </configuration>
+    </plugin>
+
   </plugins>
 </build>
 </project>
